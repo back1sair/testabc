@@ -27,4 +27,17 @@ def subtract(a: float, b: float) -> float:
     """
     return a - b
 
+def power(base: float, exp: float) -> float:
+    """
+    Raise base to the power of exp and return the result.
+
+    Args:
+        base: The base number
+        exp: The exponent
+
+    Returns:
+        base raised to the power of exp
+    """
+    return base ** exp
+
 print("hello world")
