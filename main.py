@@ -14,4 +14,17 @@ def multiply(a: float, b: float) -> float:
     """
     return a * b
 
+def subtract(a: float, b: float) -> float:
+    """
+    Subtract two numbers and return the result.
+
+    Args:
+        a: The first number
+        b: The second number
+
+    Returns:
+        The difference of a and b
+    """
+    return a - b
+
 print("hello world")
