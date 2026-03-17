@@ -40,4 +40,22 @@ def power(base: float, exp: float) -> float:
     """
     return base ** exp
 
+def modulo(a: float, b: float) -> float:
+    """
+    Calculate the remainder of a divided by b.
+
+    Args:
+        a: The dividend
+        b: The divisor
+
+    Returns:
+        The remainder of a divided by b
+
+    Raises:
+        ValueError: If b is 0
+    """
+    if b == 0:
+        raise ValueError("Division by zero: b cannot be 0")
+    return a % b
+
 print("hello world")
